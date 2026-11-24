@@ -531,3 +531,30 @@ body {
         font-size: 0.75rem;
     }
 }
+
+/* High Demand Auto-Optimizer Mode Styles */
+body.high-demand-mode * {
+    animation-duration: 0.001s !important;
+    transition-duration: 0.001s !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+
+body.high-demand-mode {
+    background: #0d0d0d !important;
+}
+
+.prank-grid button {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.2);
+    color: #fff;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.prank-grid button:hover {
+    transform: translateY(-3px);
+    filter: brightness(1.2);
+}
