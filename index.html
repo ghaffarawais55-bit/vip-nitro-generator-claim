@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ULTRA-SECRET VIP NITRO & MYSTERY REWARD GENERATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for Cyber Neon look -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Canvas Confetti for the grand finale -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <div class="matrix-bg"></div>
+    
+    <div class="container">
+        <!-- Header Banner -->
+        <header class="header">
+            <div class="badge-live">⚡ SECURE VIP GATEWAY v9.4</div>
+            <h1>ULTRA-SECRET NITRO & MYSTERY BOX</h1>
+            <p class="subtitle">Official Discord Partner & Gaming Syndicate Quantum Reward Claimer</p>
+        </header>
+
+        <!-- Main Card -->
+        <main class="card glow-border" id="mainCard">
+            <!-- Step 1: Verification Scanner -->
+            <section id="scannerSection" class="section active">
+                <div class="scanner-box">
+                    <div class="scanner-laser"></div>
+                    <div class="target-icon">🎯</div>
+                    <h3>BIOMETRIC & GAMER ID SCANNER</h3>
+                    <p id="scannerStatus">Initializing secure handshaking with Discord & Steam servers...</p>
+                    <div class="progress-bar-container">
+                        <div id="scannerBar" class="progress-bar-fill"></div>
+                    </div>
+                </div>
+                <button id="startScanBtn" class="cyber-btn primary-glow">START QUANTUM SCAN</button>
+            </section>
+
+            <!-- Step 2: Reward Unlocked & Elusive Button -->
+            <section id="rewardSection" class="section hidden">
+                <div class="reward-showcase">
+                    <div class="nitro-box pulse">
+                        <span class="nitro-icon">🎁</span>
+                        <h2>1-YEAR DISCORD NITRO + 10,000 V-BUCKS UNLOCKED!</h2>
+                        <p>Status: <span class="highlight-green">Ready for instant transfer</span></p>
+                    </div>
+                </div>
+
+                <div class="roast-display-box">
+                    <p id="roastMessage" class="roast-text">Click the golden button below to claim your loot!</p>
+                    <p class="counter-text">Taps required: <span id="tapCount">0</span> / 8</p>
+                </div>
+
+                <div class="button-arena" id="buttonArena">
+                    <!-- The teleporting button -->
+                    <button id="claimBtn" class="teleport-btn">CLAIM REWARD NOW 🚀</button>
+                </div>
+            </section>
+
+            <!-- Step 3: Fake Loading 99.9% Stuck -->
+            <section id="loadingSection" class="section hidden">
+                <div class="loading-container">
+                    <div class="spinner"></div>
+                    <h2>ESTABLISHING SECURE QUANTUM TUNNEL...</h2>
+                    <p id="loadingStatusText">Transferring 1-Year Nitro to your Discord account...</p>
+                    <div class="progress-bar-container">
+                        <div id="loadingBar" class="progress-bar-fill" style="width: 0%;"></div>
+                    </div>
+                    <h1 id="loadingPercentage">0.0%</h1>
+                </div>
+            </section>
+
+            <!-- Step 4: The Clown Certificate & Roast -->
+            <section id="certificateSection" class="section hidden">
+                <div class="certificate-card glow-gold">
+                    <div class="clown-header">
+                        <span class="big-clown">🤡</span>
+                        <h1>OFFICIAL CLOWN CERTIFICATE</h1>
+                        <p>Issued by the Supreme Internet Troll Tribunal</p>
+                    </div>
+                    
+                    <div class="certificate-body">
+                        <p class="cert-to">This proudly certifies that:</p>
+                        <h2 class="victim-name">YOU GOT PRANKED, LEGEND!</h2>
+                        <p class="cert-desc">
+                            You fell for the legendary 1-Year Nitro & Mystery Box trap. Your button-dodging reflexes were thoroughly tested and found worthy of absolute comedy.
+                        </p>
+                        <div class="stats-box">
+                            <div>Misses/Taps Dodged: <span class="stat-num">8</span></div>
+                            <div>Gullibility Level: <span class="stat-num gold">9000+</span></div>
+                            <div>Free Nitro Awarded: <span class="stat-num red">0.00 💀</span></div>
+                        </div>
+                    </div>
+
+                    <div class="certificate-actions">
+                        <button id="sharePrankBtn" class="cyber-btn share-glow">🔗 SHARE PRANK WITH FRIENDS</button>
+                        <button id="resetBtn" class="cyber-btn secondary-glow">🔄 TRY AGAIN (IF YOU DARE)</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>100% Harmless Comedy Prank. No data was collected. Share the laugh! &copy; 2025</p>
+        </footer>
+    </div>
+
+    <!-- Toast Notification for Share -->
+    <div id="toast" class="toast hidden">Copied prank link to clipboard! Send it to your best friend.</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
